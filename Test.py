@@ -1,4 +1,8 @@
-x = 'this is a test of git'
-y = imput(x)
-print(y)
-time.sleep(3)
+count = 0
+while(True):
+    print(count)
+    note = input('Add a note to the log')
+    print(note)
+    count = count + 1
+    
+
